@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Non-Fungible Token</title>
+    <style>
+        /* Basic CSS for layout */
+        body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('NFT.jpg'); /* Make sure 'background.jpg' exists in the same directory as your HTML file. */
+    background-size:cover;
+}
+
+        #container {
+            display: flex;
+            width: 80%;
+            background-color: rgba(255, 255, 255, 0.7); /* Add a semi-transparent white background for better readability */
+            box-shadow: 0px 0px 10px 2px #ccc;
+        }
+        #menu {
+            flex: 1;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+        }
+        #content {
+            flex: 2;
+            padding: 20px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        #submit-button {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="content">
+            <h2>NFT's</h2>
+            <p>NFT stands for Non-Fungible Token. It's a digital certificate of ownership, stored on a blockchain, that proves the uniqueness and authenticity of a specific digital item, like art, music, or collectibles. Unlike cryptocurrencies like Bitcoin or Ethereum, NFTs are not interchangeable with one another. Each NFT has a distinct value and cannot be exchanged on a one-to-one basis. They've gained popularity in the art and entertainment industries, allowing creators to sell and collectors to own unique digital assets. NFT ownership is recorded on a decentralized ledger, providing proof of authenticity and provenance. However, owning an NFT doesn't always grant copyright or reproduction rights, which can be a source of confusion. The NFT market has seen significant growth, but it's still a relatively new and evolving space.</p>
+            <label for="content">Select Top NFT's : </label>
+            <select>
+                <option value="dropdown1">Top 5</option>
+                <option value="dropdown2">Top 10</option>
+                <option value="dropdown3">Top 20</option>
+                <option value="dropdown4">Top 30</option>
+                </select><br><br>
+            <button id="submit-button" type="button">Submit</button>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,7 @@
+plotly
+scikit-learn
+tensorflow
+yfinance
+matplotlib
+flask
+joblib
